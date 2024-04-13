@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isWellFormedString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-well-formed-string@deno/mod.js';
+import isWellFormedString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-well-formed-string@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-well-formed-string@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-well-formed-string@v0.1.0-deno/mod.js';
 ```
 
 #### isWellFormedString( str )
@@ -121,7 +121,7 @@ bool = isWellFormedString.isObject( new String( '' ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isWellFormedString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-well-formed-string@deno/mod.js';
+import isWellFormedString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-well-formed-string@v0.1.0-deno/mod.js';
 
 var bool = isWellFormedString( '' );
 // returns true
