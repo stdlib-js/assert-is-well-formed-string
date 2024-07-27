@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.1">
 
-## Unreleased (2024-07-07)
+## 0.1.1 (2024-07-27)
 
 <section class="commits">
 
@@ -44,7 +44,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### Features
 
--   [`0f3838c`](https://github.com/stdlib-js/stdlib/commit/0f3838c60707ee9e1fd9632c8117f598ff8a60eb) - add `assert/is-well-formed-string` [(##1388)](#1388)
+-   [`0f3838c`](https://github.com/stdlib-js/stdlib/commit/0f3838c60707ee9e1fd9632c8117f598ff8a60eb) - add `assert/is-well-formed-string` [(#1388)](https://github.com/stdlib-js/stdlib/pull/1388)
 
 </section>
 
@@ -66,7 +66,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 This release closes the following issue:
 
-[##1065](#1065)
+[#1065](https://github.com/stdlib-js/stdlib/issues/1065)
 
 </section>
 
@@ -78,9 +78,9 @@ This release closes the following issue:
 
 <details>
 
--   [`615bcf1`](https://github.com/stdlib-js/stdlib/commit/615bcf165b0a9a9aad5f6591024e2dd1655c8914) - **docs:** update related packages sections [(##1441)](#1441) _(by stdlib-bot)_
+-   [`615bcf1`](https://github.com/stdlib-js/stdlib/commit/615bcf165b0a9a9aad5f6591024e2dd1655c8914) - **docs:** update related packages sections [(#1441)](https://github.com/stdlib-js/stdlib/pull/1441) _(by stdlib-bot)_
 -   [`30112b7`](https://github.com/stdlib-js/stdlib/commit/30112b7202358710becc8ea77f4261dd3e7459f3) - **fix:** replace use of type guards with boolean return type _(by Philipp Burckhardt)_
--   [`0f3838c`](https://github.com/stdlib-js/stdlib/commit/0f3838c60707ee9e1fd9632c8117f598ff8a60eb) - **feat:** add `assert/is-well-formed-string` [(##1388)](#1388) _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`0f3838c`](https://github.com/stdlib-js/stdlib/commit/0f3838c60707ee9e1fd9632c8117f598ff8a60eb) - **feat:** add `assert/is-well-formed-string` [(#1388)](https://github.com/stdlib-js/stdlib/pull/1388) _(by Gunj Joshi, Philipp Burckhardt)_
 
 </details>
 
