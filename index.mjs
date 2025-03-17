@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.1-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string@v0.2.2-esm/index.mjs";var r=/[\uDC00-\uDFFF]/,i=/[\uD800-\uDBFF]/;function n(t){var e;for(e=0;e<t.length;e++){if(0===e&&r.test(t[e]))return!1;if(e===t.length-1&&i.test(t[e]))return!1;if(e<t.length-1&&i.test(t[e])){if(!r.test(t[e+1]))return!1;e+=1}if(e>0&&r.test(t[e])&&!i.test(t[e-1]))return!1}return!0}function s(t){return"string"==typeof t&&n(t)}function u(t){return e.isObject(t)&&n(t.valueOf())}function f(t){return s(t)||u(t)}t(f,"isPrimitive",s),t(f,"isObject",u);export{f as default,u as isObject,s as isPrimitive};
+//# sourceMappingURL=index.mjs.map
