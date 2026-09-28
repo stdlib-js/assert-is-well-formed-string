@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-04)
+## Unreleased (2026-09-28)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b6bd189`](https://github.com/stdlib-js/stdlib/commit/b6bd189dc7fade70c45aa60475f765b594491f6c) - **chore:** clean-up [(#15612)](https://github.com/stdlib-js/stdlib/pull/15612) _(by Philipp Burckhardt)_
 -   [`4c3829b`](https://github.com/stdlib-js/stdlib/commit/4c3829b6cd5973e47ffe7c3b5a88ed1bfb7c63f6) - **chore:** propagate recent develop fixes to sibling packages [(#12558)](https://github.com/stdlib-js/stdlib/pull/12558) _(by Philipp Burckhardt)_
 -   [`342466e`](https://github.com/stdlib-js/stdlib/commit/342466efa3e8837ecd245ff3dd51ef0c40c52ed6) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11399)](https:-/github.com/stdlib-js/stdlib/pull/11399) _(by Karan Anand)_
 
